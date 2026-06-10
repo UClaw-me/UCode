@@ -58,7 +58,7 @@ UCode 是一款面向个人开发者的**随身开发智能体**，融合了代�
 curl -fsSL https://ucode.ai/install | bash
 
 # 或通过包管理器
-npm i -g ucode-ai
+npm i -g UClaw-me/UCode
 brew install ucode
 ```
 
