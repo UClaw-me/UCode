@@ -57,9 +57,8 @@ UCode 是一款面向个人开发者的**随身开发智能体**，融合了代�
 # 安装
 curl -fsSL https://ucode.ai/install | bash
 
-# 或通过包管理器
-npm i -g https://github.com/UClaw-me/UCode.git
-brew install ucode
+# 或通过 Bun 包管理器
+bun i -g UClaw-me/UCode
 ```
 
 ```bash
@@ -88,9 +87,10 @@ ucode
 
 | 平台 | 方式 |
 |------|------|
-| macOS | Homebrew / NPM / DMG |
+| 跨平台 | Bun / GitHub |
+| macOS | Homebrew / DMG |
 | Linux | APT / RPM / AppImage / Nix |
-| Windows | Scoop / Chocolatey / NPM / EXE |
+| Windows | Scoop / Chocolatey / EXE |
 
 ---
 
