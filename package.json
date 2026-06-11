@@ -1,15 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "ucode-ai",
-  "version": "1.16.0",
+  "version": "1.16.1",
   "description": "UCode - 随身开发智能体：代码开发、创意设计、办公自动化",
   "type": "module",
   "packageManager": "bun@1.3.14",
   "bin": {
-    "ucode": "packages/opencode/bin/opencode"
+    "ucode": "packages/opencode/bin/opencode.cjs"
   },
   "files": [
-    "packages/opencode/bin/opencode",
+    "packages/opencode/bin/opencode.cjs",
     "packages/opencode/AGENTS.md"
   ],
   "optionalDependencies": {
