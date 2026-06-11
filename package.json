@@ -8,6 +8,16 @@
   "bin": {
     "ucode": "packages/opencode/bin/opencode"
   },
+  "files": [
+    "packages/opencode/bin/opencode",
+    "packages/opencode/AGENTS.md"
+  ],
+  "optionalDependencies": {
+    "ucode-windows-x64": "1.16.0",
+    "ucode-darwin-arm64": "1.16.0",
+    "ucode-darwin-x64": "1.16.0",
+    "ucode-darwin-x64-baseline": "1.16.0"
+  },
   "scripts": {
     "dev": "bun run --cwd packages/opencode --conditions=browser src/index.ts",
     "dev:desktop": "bun --cwd packages/desktop dev",
