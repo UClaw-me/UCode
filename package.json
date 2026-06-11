@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "ucode",
+  "name": "ucode-ai",
   "version": "1.16.0",
   "description": "UCode - 随身开发智能体：代码开发、创意设计、办公自动化",
   "type": "module",
